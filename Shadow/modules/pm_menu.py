@@ -46,12 +46,8 @@ def help_markup(modules):
 
 
 STICKERS = (
-    "CAACAgUAAxkBAAIDPmFdrtdKL1wpUzLNpCUfcqK-pbkwAAKbBAACgSHoVgdJ3n3-7qLmHgQ",
-    "CAACAgUAAxkBAAIDPWFdru8XofWwx-rqfBMkW79YImgXAALNAwACUWzgVuYmv6itR5KaHgQ",
-    "CAACAgUAAxkBAAIDPGFdrv1FrmAU4jO_WOQAAWl1ct23LAACvgQAAiZr6Fba8sBFz48RhB4E",
-    "CAACAgUAAxkBAAIDO2FdrymTK7_8xIhz16JVfTQdIb83AALuAwACprvpVkp3sA_NBVgWHgQ",
-    "CAACAgUAAxkBAAIDOmFdrza48kuxEtJUeR2G6-A1nT4RAAJVAwACUaToVjA7G67xgpIVHgQ",
-    "CAACAgUAAxkBAAIDOWFdr0AUlj9duTsga4yqZYSPQXRFAAIRBAACsqXhVi5n-AsTE5aJHgQ",
+    "https://te.legra.ph/file/9b748102911036e3f72a5.jpg",
+    "https://te.legra.ph/file/c80c67c7f127fdb5e247f.jpg",
 )
 
 
@@ -64,7 +60,7 @@ async def start_group_cmd(message, strings):
 
 @register(cmds="start", no_args=True, only_pm=True)
 async def start_cmd(message):
-    await message.reply_sticker(random.choice(STICKERS))
+    await message.reply_photo(random.choice(STICKERS))
     await get_start_func(message)
 
 
@@ -83,16 +79,16 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(
-            strings["btn_channel"], url="https://t.me/ShadowBotUpdates"
+            strings["btn_channel"], url="https://t.me/KGF_FED"
         ),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/ShadowSupport_Official"
+            strings["btn_group"], url="https://t.me/KGF_Fed_Appeal"
         ),
     )
     buttons.add(
         InlineKeyboardButton(
-            "➕ Add Shadow to your group ➕",
-            url=f"https://telegram.me/Mr_Shadow_Robot?startgroup=true",
+            "➕ Add KGF to your group ➕",
+            url=f"https://telegram.me/KGF1Bot?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
@@ -135,7 +131,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = strings["btn_group_help"]
     button = InlineKeyboardMarkup().add(
-        InlineKeyboardButton(text=text, url="https://t.me/Mr_Shadow_Robot?start=help")
+        InlineKeyboardButton(text=text, url="https://t.me/KF1Bot?start=help")
     )
     await message.reply(strings["help_header"], reply_markup=button)
 
