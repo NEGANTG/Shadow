@@ -448,8 +448,8 @@ STRINGS:
     chat_lang: "Current chat language: <b>{lang}</b>"
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
-    crowdin_btn: "🌎 Join my support group"
-    help_us_translate: "\n\n<a href=\"https://t.me/ShadowbotUpdates\">🌎 Join my news channel</a>"
+    crowdin_btn: "🌎 Join my Appet group"
+    help_us_translate: "\n\n<a href=\"https://t.me/KGF_FED\">🌎 Join my channel</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
     see_translators: 👥 See translators
