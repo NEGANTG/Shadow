@@ -187,17 +187,17 @@ STRINGS:
 
   pm_menu:
     start_hi_group: '<b>Hey there, Shadow is alive :)</b>'
-    start_hi: "Hey there! My name is <b>Shadow</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
-    btn_source: "📜 Source code"
+    start_hi: "<i>Hey there!\nMy name is KGF Bot 🐾\nI can help manage your groups with useful features, feel free to add me to your groups!💚✌</i>"
+    btn_source: "💡 Source code"
     btn_help: "❔ Help"
     btn_lang: "🇺🇸 Language"
-    btn_channel: "🙋‍♀️ Update Channel"
-    btn_group: "👥 Support Group"
+    btn_channel: "『🔱』KGF Federation"
+    btn_group: "👥 Appeal Group"
     btn_group_help: "Click me for help!"
     back: "« Bᴀᴄᴋ"
 
     # /help
-    help_header: "Hi Boss! I'm <b>Shadow</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
+    help_header: "<i>Hi Boss! I'm <b>KGF Bot</b>. A powerful group management bot with many handy tools. So why are you waiting. Let me to assist you\n\n©️ KGF FEDERATION 2022™</i>"
     click_btn: Click here
 
   disable:
